@@ -1,0 +1,23 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "25865373",
+      "name": "个人、用户",
+      "font_class": "a-gerenyonghu",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    },
+    {
+      "icon_id": "25876387",
+      "name": "锁、私密、隐私",
+      "font_class": "a-suosimiyinsi",
+      "unicode": "e643",
+      "unicode_decimal": 58947
+    }
+  ]
+}
