@@ -1,7 +1,8 @@
 import Vue from 'vue'
 import { Form, FormItem , Button , Input , Message , Container , Header , Aside ,
     Main , Menu , Submenu , MenuItem , Breadcrumb , BreadcrumbItem , Card , Row , Col , 
-    table , tableColumn , Switch , Tooltip , Pagination} from 'element-ui'
+    table , tableColumn , Switch , Tooltip , Pagination , Dialog , 
+    MessageBox} from 'element-ui'
 
 
 Vue.use(Button)
@@ -26,5 +27,8 @@ Vue.use(tableColumn)
 Vue.use(Switch)
 Vue.use(Tooltip)
 Vue.use(Pagination)
+Vue.use(Dialog)
+
 // 全局挂载，将Message挂载到vue原型中，所有组件都可以使用
 Vue.prototype.$message = Message
+Vue.prototype.$confirm = MessageBox.confirm
