@@ -65,7 +65,6 @@ export default {
   methods: {
     // 表单清空
     resetLoginForm1() {
-      // console.log(this);
       this.$refs.loginFormRef.resetFields();
     },
     // 登录预验证
@@ -78,7 +77,6 @@ export default {
           return this.$message.error("登录失败");
         else this.$message.success("登录成功");
 
-        // console.log(result.data.data.token);
 
         // 1. 将登录成功之后的 token 保存到客户端的 sessionStorage 中（会话期间的存储机制）（所以不放在loaclStorage中）
         window.sessionStorage.setItem("token", result.data.data.token);
