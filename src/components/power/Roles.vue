@@ -374,7 +374,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .tag-first {
   margin: 7px 7px 7px 45px;
 }
